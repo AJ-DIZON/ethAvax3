@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.20;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 import "hardhat/console.sol";
-contract Mtoken is ERC20 {
-        
+
+contract Mtoken is ERC20 , Ownable{
+    
     constructor() ERC20("CraftToken", "CT") {
         // Mint 100 tokens to msg.sender
         // Similar to how
@@ -15,7 +17,7 @@ contract Mtoken is ERC20 {
     }
 
 
-    function mintToken(uint amount) external {
+    function mintToken(uint amount) external onlyOwner {
         uint minted = amount * 10 ** uint(decimals());
         _mint(msg.sender, minted);
         console.log("You minted %s tokens", amount);

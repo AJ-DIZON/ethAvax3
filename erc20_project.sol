@@ -15,7 +15,7 @@ contract Mtoken is ERC20 , Ownable{
         //100 tokens in constructer
     }
 
-                                    // Here only the contract owner can mint new tokens. Double check it please
+                                    // Here only the contract owner can mint new tokens. Please check it again it does work.
     function mintToken(uint amount) external onlyOwner {
         uint minted = amount * 10 ** uint(decimals());
         _mint(msg.sender, minted);

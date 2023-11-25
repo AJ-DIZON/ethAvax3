@@ -13,7 +13,6 @@ contract Mtoken is ERC20 , Ownable{
         // 1 dollar = 100 cents
         // 1 token = 1 * (10 ** decimals)
         //100 tokens in constructer
-        _mint(msg.sender, 100 * 10**uint(decimals()));
     }
 
 

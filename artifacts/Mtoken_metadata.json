@@ -590,11 +590,11 @@
 			]
 		},
 		"erc20_project.sol": {
-			"keccak256": "0xa4e6b1f1d38d7929a2e3ed19f66a73c3921394e3b527f83b371dfaa4e4e2deb1",
+			"keccak256": "0xdf6989836e49efe869e3eaa404d6837379cadd790b98c61bac33ae151b1f20b5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8127407cf8935b03205ee9b37a3898a6de4692c46aa6dc51c448204b06145484",
-				"dweb:/ipfs/QmTCRt43Q1nJZ69WZ1RRBRVihe5orYqSGHDDuhqA1SvddV"
+				"bzz-raw://19aa0cc10d0b3a67e5216b496b8b0f8d40945f5e617fb72bfae49e6ddc2e1d9c",
+				"dweb:/ipfs/Qmb2M1o7VDfXJssQJa5pJJDRpcsyz7Vy2KibzLNrrt9vhC"
 			]
 		},
 		"hardhat/console.sol": {

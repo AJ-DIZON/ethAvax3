@@ -1,8 +1,8 @@
 # README - ERC20 contract
 
-This contract is about MINTING and BURNING tokens. People can also TRANSFER tokens to other users easily. The contract only allows the contract
-to create new mints. If other users try to use it, it will throw an error, thus not making new tokens
-This contract imported ERC20 so that the contract can transfer tokens from one account to another easily.
+This contract is about MINTING and BURNING tokens. People can also TRANSFER tokens to other users easily. The contract only allows the contract to create new mints. If other users try to use it, it will throw an error, thus not making new tokens
+
+This contract imported an ERC20 for easier implementation of ERC20 functions.
 
 ERC20 - https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 

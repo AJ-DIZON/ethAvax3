@@ -8,7 +8,9 @@ ERC20 - https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 Functions:
 mintToken - Mints new token to the contract owner. Only the contract owner can make new tokens. Using other accounts will throw an error.
+
 burnToken - Burns tokens.
+
 transferToken - Transfer tokens to the reciepient with the desired token amount.
 
 ## Executing the program
@@ -17,7 +19,7 @@ transferToken - Transfer tokens to the reciepient with the desired token amount.
 
 2. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
 
-3. Upload the file you downloaded into the website and compile. 
+3. Upload the file you downloaded into the website and compile. Make sure the compiler is 8.20.
 
 4. Once compiled, you can deploy and use the contract.
 

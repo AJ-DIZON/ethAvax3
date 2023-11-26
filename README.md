@@ -18,7 +18,7 @@ transferToken - Transfer tokens to the reciepient with the desired token amount.
 
 1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
 
-2. Upload the file you downloaded into the website and compile. Make sure the compiler is 8.20.
+2. Clone the repository into the website and compile. Make sure the compiler is 8.20.
 
 3. Once compiled, you can deploy and use the contract.
 

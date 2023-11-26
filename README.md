@@ -14,15 +14,15 @@ burnToken - Burns tokens.
 
 transferToken - Transfer tokens to the reciepient with the desired token amount.
 
-## Executing the program
+## Executing the Contract
 
-1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
+1. To run this contract, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
 
 2. Clone the repository into the website and compile. Make sure the compiler is 8.20.
 
 3. Once compiled, you can deploy and use the contract.
 
-4. You can now use the program!
+4. You can now use the contract!
    
 # Author
 

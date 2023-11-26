@@ -7,6 +7,7 @@ This contract imported an ERC20 for easier implementation of ERC20 functions.
 ERC20 - https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
 Functions:
+
 mintToken - Mints new token to the contract owner. Only the contract owner can make new tokens. Using other accounts will throw an error.
 
 burnToken - Burns tokens.

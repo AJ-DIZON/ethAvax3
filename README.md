@@ -16,14 +16,14 @@ transferToken - Transfer tokens to the reciepient with the desired token amount.
 
 ## Executing the program
 
-1. Download erc20_project.sol.
+1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
 
-2. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website: https://remix.ethereum.org/.
+2. Upload the file you downloaded into the website and compile. Make sure the compiler is 8.20.
 
-3. Upload the file you downloaded into the website and compile. Make sure the compiler is 8.20.
+3. Once compiled, you can deploy and use the contract.
 
-4. Once compiled, you can deploy and use the contract.
-
+4. You can now use the program!
+   
 # Author
 
 Albert Josh B. Dizon
